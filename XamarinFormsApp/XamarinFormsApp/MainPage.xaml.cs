@@ -23,7 +23,7 @@ namespace XamarinFormsApp
         private void Button_Clicked(object sender, EventArgs e)
         {
             string name = entry.Text;
-            DisplayAlert("Hi There", $"Hello {name}", "OK");
+            DisplayAlert("Hi There", $"Hello {name}", "OK"); 
         }
     }
 }
